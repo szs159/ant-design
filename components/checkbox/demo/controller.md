@@ -50,16 +50,7 @@ class App extends React.Component {
             onChange={this.onChange}
           >
             {label}
-          </Checkbox>
-        </p>
-        <p>
-          <Button type="primary" size="small" onClick={this.toggleChecked}>
-            {!this.state.checked ? 'Check' : 'Uncheck'}
-          </Button>
-          <Button
-            style={{ margin: '0 10px' }}
-            type="primary"
-            size="small"
+ 
             onClick={this.toggleDisable}
           >
             {!this.state.disabled ? 'Disable' : 'Enable'}
